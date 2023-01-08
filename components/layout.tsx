@@ -4,9 +4,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
       {/* header */}
-      <Header />
-      {/* main contents */}
-      <main>{children}</main>
+      <div className='h-full'>
+        <Header />
+        {/* main contents */}
+        <main className='h-5/6'>{children}</main>
+      </div>
     </>
   )
 }
