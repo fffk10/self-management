@@ -34,3 +34,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# others
+google_client_secret.json
+access_token.sh
+token.json
+get_user_info.sh
+pages/api/test.http
