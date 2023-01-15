@@ -8,7 +8,7 @@ export interface DashboardProps {
 export default function Dashboard(props: DashboardProps) {
   return (
     <Layout>
-      Dashboard
+      Dashboard1
     </Layout>
   );
 }
