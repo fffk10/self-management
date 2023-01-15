@@ -11,6 +11,9 @@
     "test:coverage": "jest --collect-coverage"
   },
   "dependencies": {
+    "@fullcalendar/core": "^6.0.2",
+    "@fullcalendar/daygrid": "^6.0.2",
+    "@fullcalendar/react": "^6.0.2",
     "@headlessui/react": "^1.7.7",
     "@heroicons/react": "^2.0.13",
     "@next/font": "13.1.1",
